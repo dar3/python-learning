@@ -12,12 +12,14 @@ try:
 
         if indentIncreasing:
             # Increase the number of spaces:
+            # indent += 1 is the same as indent = indent + 1
             indent += 1
             if indent == 20:
                 # Change direction
                 indentIncreasing = False
         else:
             # Decrease the number of spaces:
+            # indent -= 1 is the same as indent = indent - 1
             indent -= 1
             if indent == 0:
                 # Change direction:
