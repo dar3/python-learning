@@ -5,6 +5,9 @@ coinSigns = []
 tailsCounter = 0
 headsCounter = 0
 
+def CoinFlipLogic():
+    pass
+
 for experimentNumber in range(10000):
     ranNum = random.randint(0, 1)
     if ranNum == 0:
