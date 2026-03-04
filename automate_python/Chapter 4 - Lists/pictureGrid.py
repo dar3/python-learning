@@ -7,3 +7,11 @@ grid = [['.', '.', '.', '.', '.', '.'],
 ['O', 'O', 'O', 'O', '.', '.'],
 ['.', 'O', 'O', '.', '.', '.'],
 ['.', '.', '.', '.', '.', '.']]
+
+
+# for i in grid:
+#     print(i)
+
+for y in range(len(grid)-1):
+    for x in range(len(grid)-1):
+        print(grid[x][y])
